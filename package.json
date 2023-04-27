@@ -4,6 +4,9 @@
   "main": "src/index.ts",
   "license": "MIT",
   "type": "module",
+  "engines" : { 
+    "node" : ">=18.0.0"
+  }
   "scripts": {
     "dev": "ts-node-esm ./src/index.ts"
   },
